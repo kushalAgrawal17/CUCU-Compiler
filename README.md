@@ -10,10 +10,10 @@ The following files are present:
 
 How to run the programm:
 On the command line in linux,run the program by entering the following commands:
-bison -d cucu.y
-flex cucu.l
-gcc cucu.tab.c lex.yy.c -lfl -o cucu
-./cucu Sample.cu
+1. bison -d cucu.y
+2. flex cucu.l
+3. gcc cucu.tab.c lex.yy.c -lfl -o cucu
+4. ./cucu Sample.cu
 
 A file Lexer.txt is generated having all tokens, and a file Parser.txt is generated were syntactical errors are displayed if any.
 
